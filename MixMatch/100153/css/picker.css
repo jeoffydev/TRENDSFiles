@@ -1,0 +1,339 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #858585; }
+
+a {
+  color: #fff; }
+  a:hover {
+    color: #fff; }
+  a:active {
+    color: #fff; }
+
+.do-border {
+  border: 1px solid #000; }
+
+h1 {
+  font-size: 58px;
+  font-weight: 700;
+  color: #535353;
+  margin-top: 18px; }
+
+h2 {
+  font-size: 38px; }
+
+h3 {
+  font-size: 17px; }
+
+.container-round {
+  border-radius: 30px;
+  border: 0px solid #000;
+  background-color: #edeeee;
+  -moz-box-shadow: 0px 0px 6px 2px #ccc;
+  -webkit-box-shadow: 0px 0px 6px 2px #ccc;
+  box-shadow: 0px 0px 6px 2px #ccc;
+  margin: 10px auto;
+  padding: 30px 30px;
+  max-width: 980px; }
+  .container-round .pop-header {
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #e0e0e0;
+    padding: 0px 10px; }
+
+.pop-body {
+  background-color: #d5d5d5; }
+
+.pop-content {
+  padding: 25px 20px 0px; }
+
+.sipper .sipper-top .clip-box {
+  position: relative;
+  z-index: 9; }
+  .sipper .sipper-top .clip-box .gloss {
+    position: absolute;
+    z-index: 999; }
+  .sipper .sipper-top .clip-box svg {
+    position: absolute; }
+
+.sipper .sipper-barrel {
+  margin-top: -5px; }
+  .sipper .sipper-barrel .clip-box {
+    position: relative; }
+    .sipper .sipper-barrel .clip-box .gloss {
+      position: absolute;
+      z-index: 999; }
+
+.cbase-e1c909 {
+  background-color: #e1c909; }
+  .cbase-e1c909 svg g {
+    fill: #e1c909; }
+
+.cbase-ffffff {
+  background-color: #ffffff; }
+
+.cbase-fc6e26 {
+  background-color: #fc6e26; }
+
+.cbase-ef689a {
+  background-color: #ef689a; }
+
+.cbase-cd454b {
+  background-color: #cd454b; }
+
+.cbase-53b437 {
+  background-color: #53b437; }
+
+.cbase-1d8763 {
+  background-color: #1d8763; }
+
+.cbase-1b7eba {
+  background-color: #1b7eba; }
+
+.cbase-3754a4 {
+  background-color: #3754a4; }
+
+.cbase-7854ae {
+  background-color: #7854ae; }
+
+.cbase-1f1a17 {
+  background-color: #1f1a17; }
+
+.cbase-b1b1b1 {
+  background-color: #b1b1b1; }
+
+.cbase-af3515 {
+  background-color: #af3515; }
+
+.clip-box.cbase-e1c909 {
+  background-color: transparent; }
+  .clip-box.cbase-e1c909 svg g {
+    fill: #e1c909;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-ffffff {
+  background-color: transparent; }
+  .clip-box.cbase-ffffff svg g {
+    fill: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-fc6e26 {
+  background-color: transparent; }
+  .clip-box.cbase-fc6e26 svg g {
+    fill: #fc6e26;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-ef689a {
+  background-color: transparent; }
+  .clip-box.cbase-ef689a svg g {
+    fill: #ef689a;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-cd454b {
+  background-color: transparent; }
+  .clip-box.cbase-cd454b svg g {
+    fill: #cd454b;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-53b437 {
+  background-color: transparent; }
+  .clip-box.cbase-53b437 svg g {
+    fill: #53b437;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-1d8763 {
+  background-color: transparent; }
+  .clip-box.cbase-1d8763 svg g {
+    fill: #1d8763;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-1b7eba {
+  background-color: transparent; }
+  .clip-box.cbase-1b7eba svg g {
+    fill: #1b7eba;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-3754a4 {
+  background-color: transparent; }
+  .clip-box.cbase-3754a4 svg g {
+    fill: #3754a4;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-7854ae {
+  background-color: transparent; }
+  .clip-box.cbase-7854ae svg g {
+    fill: #7854ae;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-1f1a17 {
+  background-color: transparent; }
+  .clip-box.cbase-1f1a17 svg g {
+    fill: #1f1a17;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-b1b1b1 {
+  background-color: transparent; }
+  .clip-box.cbase-b1b1b1 svg g {
+    fill: #b1b1b1;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-af3515 {
+  background-color: transparent; }
+  .clip-box.cbase-af3515 svg g {
+    fill: #af3515;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.color-panel {
+  border: 2px solid #5c5c5c;
+  border-radius: 20px;
+  padding: 0px;
+  margin-top: 8px;
+  margin-bottom: 46px;
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); }
+  .color-panel h3 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#747577+0,4a4a4e+59,252429+100 */
+    background: #747577;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #747577 0%, #4a4a4e 59%, #252429 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #747577 0%, #4a4a4e 59%, #252429 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#747577), color-stop(59%, #4a4a4e), to(#252429));
+    background: -o-linear-gradient(top, #747577 0%, #4a4a4e 59%, #252429 100%);
+    background: linear-gradient(to bottom, #747577 0%, #4a4a4e 59%, #252429 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#747577', endColorstr='#252429',GradientType=0 );
+    /* IE6-9 */
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px;
+    font-weight: 700; }
+    .color-panel h3:nth-child(1) {
+      border-top-left-radius: 17px;
+      border-top-right-radius: 17px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px; }
+    .color-panel h3:nth-child(3) {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px; }
+
+.color-pallet {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+  .color-pallet li {
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    border: 1px solid #545454;
+    margin: 10px 9px;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer; }
+    .color-pallet li:nth-child(6n-5) {
+      /* or 4n+1 */
+      margin: 10px 10px; }
+    .color-pallet li.active {
+      font-family: 'Glyphicons Halflings';
+      position: relative; }
+      .color-pallet li.active:after {
+        content: "\e013";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        line-height: 29px; }
+      .color-pallet li.active:before {
+        content: '';
+        width: 135%;
+        height: 130%;
+        position: absolute;
+        border: 2px solid #00aeef;
+        border-radius: 3px;
+        top: -4px;
+        left: -4px; }
+
+.download {
+  padding: 22px 97px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-image: url(../images/save.png);
+  /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); */
+  text-indent: -9999px; }
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+@media (min-width: 768px) {
+  .row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.height-md-fix {
+  min-height: 65px; }
+  @media (max-width: 425px) {
+    .height-md-fix {
+      padding-top: 30px;
+      text-align: center; } }
+
+.mask-obj {
+  background-color: #edeeee; }
+  @media (max-width: 425px) {
+    .mask-obj table {
+      margin: auto; } }
+
+.container-main {
+  max-width: 1037px;
+  width: 100%;
+  margin: 0px;
+  padding: 10px 0;
+  background-color: #e7e7e7; }
+
+.container {
+  max-width: 1018px;
+  width: 100%;
+  padding: 0px; }
+
+.bulleted:before {
+  content: '*';
+  margin-left: -11px;
+  margin-right: 5px; }

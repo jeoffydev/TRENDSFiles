@@ -1,0 +1,76 @@
+/**
+ * csstyle v2.0.2 for sass (https://csstyle.io)
+ * Copyright (c) 2019 Frankie Wittevrongel
+ * Licensed under MIT (https://github.com/csstyle-org/csstyle/blob/master/LICENSE)
+ */
+.carousel__indicators {
+  bottom: 31px !important;
+  background: #FFFFFF;
+  width: 100%;
+  margin: 0px;
+  padding: 4px 0 8px 0;
+}
+.carousel__indicators li {
+  width: 10px !important;
+  height: 10px !important;
+}
+.carousel__indicators li:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .carousel__indicators li {
+    display: block !important;
+  }
+}
+
+#imgZoomModal.modal .modal-dialog {
+  height: 90%;
+}
+@media screen and (max-width: 768px) {
+  #imgZoomModal.modal .modal-dialog {
+    max-width: 90% !important;
+  }
+}
+#imgZoomModal.modal .modal-dialog .modal-content {
+  height: 100%;
+}
+#imgZoomModal.modal .modal-dialog .modal-content .modal-body {
+  height: 100%;
+}
+#imgZoomModal.modal .modal-dialog .modal-content .modal-body .carousel {
+  height: 100%;
+}
+#imgZoomModal.modal .modal-dialog .modal-content .modal-body .carousel .carousel__control {
+  height: calc(100% - 50px);
+}
+#imgZoomModal.modal .modal-dialog .modal-content .modal-body .carousel .carousel-inner {
+  height: 100%;
+}
+#imgZoomModal.modal .modal-dialog .modal-content .modal-body .carousel .carousel-inner .carousel-item {
+  height: 100%;
+  background-color: #FFFFFF;
+}
+#imgZoomModal.modal .modal-dialog .modal-content .modal-body .carousel .carousel-inner .carousel-item .carousel__image {
+  height: calc(100% - 50px);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #FFFFFF;
+  margin: 0 36px;
+  position: relative;
+  transition: none;
+}
+#imgZoomModal.modal .modal-dialog .modal-content .modal-body .carousel .carousel-inner .carousel-item .carousel__image img {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+#imgZoomModal.modal .modal-dialog .modal-content .modal-body .carousel .carousel-inner .carousel-item .carousel__caption {
+  height: 60px;
+  padding: 23px 0 8px 0;
+  margin: 0px !important;
+  background: #e9e8e8;
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /TGP-Admin/ 
+Allow: /
+Crawl-delay: 10

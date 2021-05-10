@@ -1,0 +1,71 @@
+@include component(carousel) {
+
+	@import 'parts/indicators/indicators';
+}
+
+#imgZoomModal {
+
+	&.modal {
+		$captionHeight: 50px;
+
+		.modal-dialog {
+			height: 90%;
+
+			@media screen and (max-width: 768px) {
+				max-width: 90% !important;
+			}
+
+			.modal-content {
+				height:100%;
+
+				.modal-body {
+					height:100%;
+
+					.carousel {
+						height: 100%;
+
+						.carousel__control {
+							height: calc(100% - #{$captionHeight});
+						}
+
+						.carousel-inner {
+							height: 100%;
+
+							.carousel-item {
+								height: 100%;
+								background-color: $colour-white;
+
+								.carousel__image {
+									height: calc(100% - #{$captionHeight});
+									background-size: contain;
+									background-repeat: no-repeat;
+									background-position: center center;
+									background-color: $colour-white;
+									margin: 0 36px;
+									position: relative;
+									transition: none;
+
+									img {
+										opacity: 0;
+										width: 100%;
+										height: 100%;
+										position: absolute;
+										top: 0px;
+										left: 0;
+									}
+								}
+
+								.carousel__caption {
+									height: 60px;
+									padding: 23px 0 8px 0;
+									margin: 0px !important;
+									background: #e9e8e8;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

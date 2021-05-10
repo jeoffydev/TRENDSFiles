@@ -1,0 +1,81 @@
+Redirect http to https  ------------------
+htaccess - inside the htaccess_live folder 
+
+ ------------------
+Home_model - has the home page banner pointed to DEV
+
+index.php - change development to production
+
+Log error like trendscollection.co.nz 
+The main (apache) error log is now in /var/log/apache2/ 
+ ------------------
+
+
+Files need on the root  ------------------
+functions.php
+backup.php (Need to have cron jobs on trends.nz)
+csvExporterMailer
+Error
+ErrorFrame
+zipMakerNew.php 
+zipMakerNewAU.php
+
+Images ------------------ 
+Update Images/ProductImgSML and Images/ProductImg
+
+PDFWires  ------------------ 
+Update  the PDF wires on the root folder
+
+Compliance PDF -
+Update  the compliance on the root folder
+
+Skinned site default colours to Database ------------------
+Header background and tab select etc.
+
+Skinned sites logo and favicon - UPLOADED 
+From trendscollection to trends.nz 
+
+Aliases from trendscollection to trends.nz
+
+Cache  ------------------
+
+Details (Quickview) Productdisplay_model - cache will replace and refresh every 5 minutes 
+Home banner - refresh every 5 minutes 
+Search header cache - refresh every 15 minutes 
+Pricing per item page - refresh every 5 minutes
+item.php - World Source Stock - refresh every 5 minutes
+
+External iframe for customers ------------------
+stockCheckerExternal.php
+
+Mix & Match  ------------------
+Needs to update 
+
+Others ------------------
+
+debug user and change account and change to distributors
+General_model - getLogcheck()
+
+Admin preview link 
+For admin preview link item/100090/preview
+
+
+--------------------------------------------------------------------------------MultiCurrencies --------------------------------------------------------------------------------
+Added currencyData table
+added pricing SG and MY for dropdown option on productChangeTypes  table
+
+Note for the cache of header search and banner
+Added folder for banners sg and my Images/Banners
+
+
+
+CMS 
+Banner 
+user management
+
+Added availSG and availMY on DB tables:
+- freightOption (Added SGD and MYR on freightOption Table) 
+- productsCurrent
+- productsCurrentDEV
+
+

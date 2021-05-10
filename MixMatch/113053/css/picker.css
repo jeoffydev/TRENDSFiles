@@ -1,0 +1,612 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #858585; }
+
+a {
+  color: #fff; }
+  a:hover {
+    color: #fff; }
+  a:active {
+    color: #fff; }
+
+.do-border {
+  border: 1px solid #000; }
+
+h1 {
+  font-size: 58px;
+  font-weight: 700;
+  color: #535353;
+  margin-top: 18px; }
+
+h2 {
+  font-size: 38px; }
+
+h3 {
+  font-size: 17px; }
+
+.container-round {
+  border-radius: 30px;
+  border: 0px solid #000;
+  background-color: #edeeee;
+  -moz-box-shadow: 0px 0px 6px 2px #ccc;
+  -webkit-box-shadow: 0px 0px 6px 2px #ccc;
+  box-shadow: 0px 0px 6px 2px #ccc;
+  margin: 10px auto;
+  padding: 30px 30px;
+  max-width: 980px; }
+  .container-round .pop-header {
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #e0e0e0;
+    padding: 0px 10px; }
+
+.pop-body {
+  background-color: #d5d5d5; }
+
+.pop-content {
+  padding: 25px 20px 0px; }
+
+#pin-lock {
+  margin: auto; }
+
+.metro {
+  background: url(../images/metro/base.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  position: relative; }
+  .metro .gloss {
+    position: absolute;
+    z-index: 11; }
+  .metro .metro-top {
+    position: absolute;
+    z-index: 10; }
+    .metro .metro-top .clip-box {
+      position: relative; }
+  .metro .metro-barrel .clip-box {
+    position: relative; }
+    .metro .metro-barrel .clip-box .svg {
+      position: absolute;
+      z-index: 9; }
+
+.cbase-b6b098 {
+  background-color: #b6b098; }
+
+.cbase-f4f2f0 {
+  background-color: #f4f2f0; }
+
+.cbase-ffde24 {
+  background-color: #ffde24; }
+
+.cbase-f36a30 {
+  background-color: #f36a30; }
+
+.cbase-f779a0 {
+  background-color: #f779a0; }
+
+.cbase-f6312e {
+  background-color: #f6312e; }
+
+.cbase-aed35e {
+  background-color: #aed35e; }
+
+.cbase-0fa26f {
+  background-color: #0fa26f; }
+
+.cbase-2cbdb6 {
+  background-color: #2cbdb6; }
+
+.cbase-00c7d8 {
+  background-color: #00c7d8; }
+
+.cbase-35588f {
+  background-color: #35588f; }
+
+.cbase-325b6a {
+  background-color: #325b6a; }
+
+.cbase-684f91 {
+  background-color: #684f91; }
+
+.cbase-2d2e2d {
+  background-color: #2d2e2d; }
+
+.cbase-405389 {
+  background-color: #405389; }
+
+.cbase-3a508c {
+  background-color: #3a508c; }
+
+.cbase-2e62be {
+  background-color: #2e62be; }
+
+.cbase-3362b9 {
+  background-color: #3362b9; }
+
+.cbase-ada693 {
+  background-color: #ada693; }
+
+.cbase-eeedec {
+  background-color: #eeedec; }
+
+.cbase-ffe025 {
+  background-color: #ffe025; }
+
+.cbase-f2662d {
+  background-color: #f2662d; }
+
+.cbase-f27198 {
+  background-color: #f27198; }
+
+.cbase-ee3a30 {
+  background-color: #ee3a30; }
+
+.cbase-8eb64d {
+  background-color: #8eb64d; }
+
+.cbase-009459 {
+  background-color: #009459; }
+
+.cbase-00aaa5 {
+  background-color: #00aaa5; }
+
+.cbase-02b4c7 {
+  background-color: #02b4c7; }
+
+.cbase-32558c {
+  background-color: #32558c; }
+
+.cbase-365765 {
+  background-color: #365765; }
+
+.cbase-684f91 {
+  background-color: #684f91; }
+
+.cbase-2a2b2b {
+  background-color: #2a2b2b; }
+
+.cbase-939697 {
+  background-color: #939697; }
+
+.cbase-f2633a {
+  background-color: #f2633a; }
+
+.cbase-ee60a2 {
+  background-color: #ee60a2; }
+
+.cbase-7bc24f {
+  background-color: #7bc24f; }
+
+.clip-box.cbase-e1c909 {
+  background-color: transparent; }
+  .clip-box.cbase-e1c909 svg g {
+    fill: #e1c909;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-b6b098 {
+  background-color: transparent; }
+  .clip-box.cbase-b6b098 svg g {
+    fill: #b6b098;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-f4f2f0 {
+  background-color: transparent; }
+  .clip-box.cbase-f4f2f0 svg g {
+    fill: #f4f2f0;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-ffde24 {
+  background-color: transparent; }
+  .clip-box.cbase-ffde24 svg g {
+    fill: #ffde24;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-f36a30 {
+  background-color: transparent; }
+  .clip-box.cbase-f36a30 svg g {
+    fill: #f36a30;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-f779a0 {
+  background-color: transparent; }
+  .clip-box.cbase-f779a0 svg g {
+    fill: #f779a0;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-f6312e {
+  background-color: transparent; }
+  .clip-box.cbase-f6312e svg g {
+    fill: #f6312e;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-aed35e {
+  background-color: transparent; }
+  .clip-box.cbase-aed35e svg g {
+    fill: #aed35e;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-0fa26f {
+  background-color: transparent; }
+  .clip-box.cbase-0fa26f svg g {
+    fill: #0fa26f;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-2cbdb6 {
+  background-color: transparent; }
+  .clip-box.cbase-2cbdb6 svg g {
+    fill: #2cbdb6;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-00c7d8 {
+  background-color: transparent; }
+  .clip-box.cbase-00c7d8 svg g {
+    fill: #00c7d8;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-35588f {
+  background-color: transparent; }
+  .clip-box.cbase-35588f svg g {
+    fill: #35588f;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-325b6a {
+  background-color: transparent; }
+  .clip-box.cbase-325b6a svg g {
+    fill: #325b6a;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-684f91 {
+  background-color: transparent; }
+  .clip-box.cbase-684f91 svg g {
+    fill: #684f91;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-2d2e2d {
+  background-color: transparent; }
+  .clip-box.cbase-2d2e2d svg g {
+    fill: #2d2e2d;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-ada693 {
+  background-color: transparent; }
+  .clip-box.cbase-ada693 svg g {
+    fill: #ada693;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-eeedec {
+  background-color: transparent; }
+  .clip-box.cbase-eeedec svg g {
+    fill: #eeedec;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-ffe025 {
+  background-color: transparent; }
+  .clip-box.cbase-ffe025 svg g {
+    fill: #ffe025;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-f2662d {
+  background-color: transparent; }
+  .clip-box.cbase-f2662d svg g {
+    fill: #f2662d;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-f27198 {
+  background-color: transparent; }
+  .clip-box.cbase-f27198 svg g {
+    fill: #f27198;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-ee3a30 {
+  background-color: transparent; }
+  .clip-box.cbase-ee3a30 svg g {
+    fill: #ee3a30;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-8eb64d {
+  background-color: transparent; }
+  .clip-box.cbase-8eb64d svg g {
+    fill: #8eb64d;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-009459 {
+  background-color: transparent; }
+  .clip-box.cbase-009459 svg g {
+    fill: #009459;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-00aaa5 {
+  background-color: transparent; }
+  .clip-box.cbase-00aaa5 svg g {
+    fill: #00aaa5;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-02b4c7 {
+  background-color: transparent; }
+  .clip-box.cbase-02b4c7 svg g {
+    fill: #02b4c7;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-32558c {
+  background-color: transparent; }
+  .clip-box.cbase-32558c svg g {
+    fill: #32558c;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-365765 {
+  background-color: transparent; }
+  .clip-box.cbase-365765 svg g {
+    fill: #365765;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-684f91 {
+  background-color: transparent; }
+  .clip-box.cbase-684f91 svg g {
+    fill: #684f91;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-2a2b2b {
+  background-color: transparent; }
+  .clip-box.cbase-2a2b2b svg g {
+    fill: #2a2b2b;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-405389 {
+  background-color: transparent; }
+  .clip-box.cbase-405389 svg g {
+    fill: #405389;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-405389 {
+  background-color: transparent; }
+  .clip-box.cbase-405389 svg g {
+    fill: #405389;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-3a508c {
+  background-color: transparent; }
+  .clip-box.cbase-3a508c svg g {
+    fill: #3a508c;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-2e62be {
+  background-color: transparent; }
+  .clip-box.cbase-2e62be svg g {
+    fill: #2e62be;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-3362b9 {
+  background-color: transparent; }
+  .clip-box.cbase-3362b9 svg g {
+    fill: #3362b9;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-939697 {
+  background-color: transparent; }
+  .clip-box.cbase-939697 svg g {
+    fill: #939697;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-f2633a {
+  background-color: transparent; }
+  .clip-box.cbase-f2633a svg g {
+    fill: #f2633a;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-ee60a2 {
+  background-color: transparent; }
+  .clip-box.cbase-ee60a2 svg g {
+    fill: #ee60a2;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.clip-box.cbase-7bc24f {
+  background-color: transparent; }
+  .clip-box.cbase-7bc24f svg g {
+    fill: #7bc24f;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+
+.color-panel {
+  border: 2px solid #5c5c5c;
+  border-radius: 20px;
+  padding: 0px;
+  margin-top: 8px;
+  margin-bottom: 46px;
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); }
+  .color-panel h3 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#747577+0,4a4a4e+59,252429+100 */
+    background: #747577;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #747577 0%, #4a4a4e 59%, #252429 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #747577 0%, #4a4a4e 59%, #252429 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#747577), color-stop(59%, #4a4a4e), to(#252429));
+    background: -o-linear-gradient(top, #747577 0%, #4a4a4e 59%, #252429 100%);
+    background: linear-gradient(to bottom, #747577 0%, #4a4a4e 59%, #252429 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#747577', endColorstr='#252429',GradientType=0 );
+    /* IE6-9 */
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px;
+    font-weight: 700; }
+    .color-panel h3:nth-child(1) {
+      border-top-left-radius: 17px;
+      border-top-right-radius: 17px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px; }
+    .color-panel h3:nth-child(3) {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px; }
+
+.color-pallet {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+  .color-pallet li {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    border: 1px solid #545454;
+    margin: 10px 7px;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer; }
+    .color-pallet li:nth-child(6n-5) {
+      /* or 4n+1 */
+      margin: 10px 13px; }
+    .color-pallet li.active {
+      font-family: 'Glyphicons Halflings';
+      position: relative; }
+      .color-pallet li.active:after {
+        content: "\e013";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        line-height: 29px; }
+      .color-pallet li.active:before {
+        content: '';
+        width: 135%;
+        height: 130%;
+        position: absolute;
+        border: 2px solid #00aeef;
+        border-radius: 3px;
+        top: -4px;
+        left: -4px; }
+
+.download {
+  padding: 22px 97px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-image: url(../images/save.png);
+  /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); */
+  text-indent: -9999px; }
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+@media (min-width: 768px) {
+  .row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.height-md-fix {
+  min-height: 65px; }
+  @media (max-width: 425px) {
+    .height-md-fix {
+      padding-top: 30px;
+      text-align: center; } }
+
+.mask-obj {
+  background-color: #edeeee; }
+  @media (max-width: 425px) {
+    .mask-obj table {
+      margin: auto; } }
+
+.container-main {
+  max-width: 1037px;
+  width: 100%;
+  margin: 0px;
+  padding: 10px 0;
+  background-color: #e7e7e7; }
+
+.container {
+  max-width: 1018px;
+  width: 100%;
+  padding: 0px; }
+
+.bulleted:before {
+  content: '*';
+  margin-left: -11px;
+  margin-right: 5px; }

@@ -1,0 +1,22 @@
+@include part(indicators) {
+	bottom: 31px !important;
+	background: $colour-white;
+	width: 100%;
+	margin: 0px;
+	padding: 4px 0 8px 0;
+
+	li {
+		$size: 10px;
+
+		width:$size !important;
+		height:$size !important;
+
+		&:hover {
+			cursor:pointer;
+	 	}
+
+		@media screen and (max-width: 768px) {
+			display: block !important;
+		}
+	}
+}

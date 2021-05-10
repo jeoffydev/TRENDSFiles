@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+
+    web:
+        build: web/.
+        container_name: web
+        ports:
+            - 80:80
+            - 443:443
+        networks:
+            - trendsnz
+        volumes:
+            - ${COMPOSE_CODE_DIR}:/var/www/html/
+            - ${COMPOSE_IMAGES_DIR}:/var/www/html/Images
+            - ${COMPOSE_RESIZER_DIR}:/var/www/html/resizer
+
+    db:
+        build: db/.
+        container_name: db
+        platform: "amd64"
+        command: [ "mysqld",
+                    "--character-set-server=utf8mb4",
+                    "--collation-server=utf8mb4_unicode_ci",
+                    "--bind-address=0.0.0.0",
+                    "--default_authentication_plugin=mysql_native_password" ]
+        ports:
+            - "33060:3306"
+        networks:
+            - trendsnz
+        volumes:
+            - type: bind
+              source: ${COMPOSE_DATABASE_DIR}
+              target: /var/lib/mysql
+        restart: always
+        environment:
+           MYSQL_ROOT_HOST: "%"
+           MYSQL_ROOT_PASSWORD: "secret"
+           MYSQL_USER: ""
+           MYSQL_PASSWORD: ""
+           MYSQL_DATABASE: ""
+
+networks:
+    trendsnz:
+        name: trendsnz
+        driver: bridge

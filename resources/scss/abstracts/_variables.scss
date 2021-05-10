@@ -1,0 +1,33 @@
+//Csstyle
+$csstyle-component-symbol       : '';
+$csstyle-option-symbol          : '--';
+$csstyle-part-symbol            : '__';
+$csstyle-tweak-symbol           : '+';
+$csstyle-location-symbol        : '@';
+$csstyle-root-id                : 'csstyle';
+
+//Colours
+
+//Colours - Bootstrap
+$colour-success					: #28A745;
+
+//Colours - Basics
+$colour-white					: #FFFFFF;
+$colour-black					: #000000;
+
+//Colours - Primary
+$colour-primary					: #00B0B9;
+
+//Colours - Secondary
+
+//Transitions
+$transition-time-slow			: 1s;
+$transition-time				: .6s;
+$transition-time-fast			: .3s;
+
+//Border Radius
+$border-radius 					: 5px;
+
+//Box Shadow
+$box-shadow						: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+$box-shadow-dark				: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;

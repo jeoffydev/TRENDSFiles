@@ -1,0 +1,99 @@
+ 
+[
+    {
+      "BrandingOption": {
+        "0": { 
+              "pm": "Pad Print",
+              "pa": "40mm X 60mm" 
+            },
+        "1": { 
+              "pm": "Screen Print",
+              "pa": "200mm x 100mm (one colour)" 
+            },
+        "2": { 
+              "pm": "Laser Engraving",
+              "pa": "60mm x 95mm " 
+            },
+        "3": { 
+              "pm": "Rotary Digital Print",
+              "pa": "228mm x 100mm " 
+            },
+        "4": { 
+              "pm": "None",
+              "pa": "" 
+            }    
+      },
+      "Pricing": {
+
+            "NZD":{
+
+                "0": { 
+                    "desc": "Printing per col/pos",
+                    "ucost": "0.40",
+                    "setup": "35"
+                  },
+                "1": { 
+                      "desc": "Printing per position (Gift Tube)",
+                      "ucost": "0.35",
+                      "setup": "35"
+                  },
+                "2": { 
+                      "desc": "Engraving per position",
+                      "ucost": "1.00",
+                      "setup": "35"
+                  },
+                "3": { 
+                      "desc": "Rotary Digital Print",
+                      "ucost": "3.00",
+                      "setup": "35"
+                  },
+                "4": { 
+                      "desc": "Gift Tube - Large",
+                      "ucost": "3.50",
+                      "setup": "0"
+                  }
+            },
+            "AUD": {
+
+                "0": { 
+                    "desc": "Printing per col/pos",
+                    "ucost": "0.40",
+                    "setup": "35"
+                  },
+                "1": { 
+                      "desc": "Printing per position (Gift Tube)",
+                      "ucost": "0.35",
+                      "setup": "35"
+                  },
+                "2": { 
+                      "desc": "Engraving per position",
+                      "ucost": "1.00",
+                      "setup": "35"
+                  },
+                "3": { 
+                      "desc": "Rotary Digital Print",
+                      "ucost": "3.00",
+                      "setup": "35"
+                  },
+                "4": { 
+                      "desc": "Gift Tube - Large",
+                      "ucost": "3.50",
+                      "setup": "0"
+                  }
+            }
+            
+      },
+      "PriceType":{
+          "0": "--Select--",
+          "1": "Stock",
+          "2" : "Indent - Sea",
+          "3" : "Indent - Air"
+      },
+      "additionalOptionCategory":{
+          "0":  "--Select--",  
+          "1":  "Decoration Option",
+          "2" :  "Optional Extra", 
+          "3" :  "Decoration Charge on Optional Extra" 
+      }
+    } 
+]

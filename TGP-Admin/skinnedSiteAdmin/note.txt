@@ -1,0 +1,118 @@
+Note:
+Added table - skinnedUserData
+ 
+ 
+ 
+
+Added skinnedSiteAdmin folder and files
+
+Added reset-user.php    ----- /* important */  ----- DONE ------
+
+Added field on UserData - customSiteUser (Manually tick default by 0)
+Added icon - Images/TopMenuIcons/customSiteUser  ----- DONE ------
+
+Added customsiteAdminEmail field on customSite and customSiteTemp  ----- DONE ------
+
+logcheck.php  ----- DONE ------
+Added the $userAcct line 44
+Added $customSiteUser = 0 on line 11
+Added $customSiteUser on line 32 
+
+menu.php -  MENU IS TEMPORARY ON TRENDS LIVE/SHOULD DOWNLOAD FIRST BECAUSE OF - Rotary Digital Print  ----- DONE ------
+added customsite user icon line 296
+Edit and add Login/Account menu line 252
+Added class on line 58 for ul class <ul class="nav <?php echo $navClassTop; ?>" id="navi">
+Line 58 added $navClassTop, connected to skinnedSiteAdmin/customsiteadmin.php line 44
+Line 255 add $borderRight on style
+
+
+ThemeMain.php ----- DONE ------
+Start Scripts on line 671
+Added Show Pricing values Line 1011
+Email Address changed to Enquiry Email Address on line 905
+Added Admin Email user line 911
+Edit script Radio button script value line 505
+Added script line (646) 667
+Added validation for email admin user line 566
+added $('#cemail_admin').val() on all the script DOM
+
+themeFUnctions.php  ----- DONE ------
+POST line 128 removed cpricing condition
+Added cemail_admin post and update insert line 68 and 88
+
+/* Connect Module */
+themeBuilder.php ----- DONE ------
+Added variable and include file on line 88
+
+
+
+index.php  ----- DONE ------
+added reset-user line 28 and 63
+
+HTACCESS ----- DONE ------
+Added reset-user line 212
+
+
+scripts.php ----- DONE ------
+Added line script for logout session unset on line 866 - REMOVED
+Addeed script for quickview tab icon $('li.hoverthemeprice-quick') on line 738
+
+logoutuser.php ----- DONE ------
+Added tghis file for logout
+
+
+functions.php ----- DONE ------
+Added skinnedLoginPricing() for $custShowPricing value in line 708 - DONE HERE
+
+Added array value on function iconMaker() $skinDataArray=NULL line 100
+Added global variable - global $custMarkupSetup line 180 OR added on customsiteadmin.php inside skinDataArray values line 57
+
+item.php ----- DONE ------
+Function for the $custShowPricing showPricing value on Line 95 
+
+
+
+setup.php ----- DONE ------
+Added $skinDataArray = null on line 45
+
+
+
+Added on MODULES
+
+category.php  ----- DONE ------
+added $skinDataArray on Line 317 
+
+products.php ----- DONE ------
+added $skinDataArray on Line 151
+
+QuickView/quickview.php
+Added array values and function in Line 125
+Added tab icon and condition $showthemePrice == 1 line 151 /205
+Added tab content on line 203 / line 242 / 285
+
+quickviewAllFunction.php
+Added new option = 5 on line 327
+
+
+
+
+Changes on April 06, 2018
+
+ customSiteAddFunction.php
+ Added include on line 13
+ include_once("../functions.php");
+include_once('lib/swift_required.php');
+
+Changes on line line 17 for post and save user with email for reset pw
+
+
+skinnedSiteAdmin/Class/Skinned.php
+Added public function on line 176 selectNewSkinnedUser($conn, $data)
+
+functions.php 
+Line 112 up to 132 //Passing SkinData arrays for filter advance
+if($idSafe){ $custShowPricing =   skinnedLoginPricing($skinDataArray['showPricing'], $skinDataArray['loginSkinnedSite']);  }
+
+
+skinnedUserManagement.php 
+Remove the next menu tab on TABS line 431
